@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+    
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    padding-bottom: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform .4s;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+input {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid  #f9004d;
+    color: #f9004d;
+    cursor: pointer;
+    
+    }
+.navigation {
+    float: left;
+    width: 15%;
+    height: 593px;
+    background: #101010;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+      
+      }
+.navigation ul li {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 25px;
+    padding-bottom: 50px;
+    }
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform .4s;
+    }
+.navigation ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+    transform: scale(1.2);
+    }
+.navigation h4 {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 25px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    
+.btn {
+    
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 35px;
+}
+.btn:hover {
+
+    background-color: #f9004d;
+    transition: transform .5s;
+
+}
+  
+      
+.content {
+    float: left;
+    width: 60%;
+    height: 593px;
+    background-color: #151414;
+    color: white;
+    padding: 30px;
+        
+    }
+
+.content img{
+    height: 120px;
+     border-radius: 5px;
+     width: 120px;
+     }
+.content p {
+    padding-top: 30px;
+    font-size: 18px;
+        
+     }
+.content p span {
+    color: #f9004d;
+    font-weight: bold;
+    font-size: 22px;
+     }
+
+.promotion {
+    float: left;
+    width: 25%;
+    height: 593px;
+    background-color: #181818;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;        
+}
+
+.promotion p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.promotion .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-top: 25px;
+}
+.promotion .button:hover{
+    
+    
+    cursor: pointer;
+    transform: scale(1.2);
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    
+}
+.link{
+	display: flex;
+}
+.link a{
+    
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 15px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+    padding: 7px;
+}
+
+
+.link a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.copyright{
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 10px; 
+}
+
+
+
+ @media screen and (max-width: 950px) {
+    .content p {
+        font-size: 17px;
+        
+     }
+     .btn {
+    
+        padding: 8px 20px;
+    
+    }
+  }
+  @media screen and (max-width: 910px) {
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+        }
+            .logo {
+                
+                font-size: 30px;
+        
+            }
+            .btn {
+    
+                padding: 5px 15px;
+                margin-left: 40px;
+            
+            }
+            .navigation h4 {
+                font-size: 15px;
+                }
+  }
+  @media screen and (max-width: 840px) {
+    .navbar {
+        padding-left: 3%;
+        padding-right: 3%;
+        }
+        nav ul li {
+            padding: 8px 15px;
+            padding-bottom: 40px;
+        }
+        .btn {
+    
+            padding: 5px 15px;
+            margin-left: 50px;
+        
+        }
+        .navigation ul li {
+            font-size: 15px;
+            }
+            .navigation h4 {
+                padding-left: 40px;
+                font-size: 12px;
+            
+                }
+                .content img{
+                    height: 100px;
+                    width: 100px;
+                 }
+                 .content p {
+                    font-size: 16px;
+                    
+                 }
+                 .content p span {
+                    
+                    font-size: 20px;
+                }
+  }
+  @media screen and (max-width: 730px) {
+    .btn {
+    
+        padding: 5px 10px;
+        margin-left: 50px;
+    
+    }
+    .promotion p {
+        font-size: 27px;
+    }
+    
+  }
+  @media screen and (max-width: 705px) {
+    .btn {
+    
+        padding: 5px 5pxpx;
+        margin-left: 50px;
+    
+    }
+    .content img{
+        height: 90px;
+        width: 90px;
+     }
+     input {
+        padding: 8px 10px;
+        margin-bottom: 40px;
+        }
+  }
+  @media screen and (max-width: 685px) {
+    nav ul li {
+        padding: 5px 10px;
+        padding-bottom: 40px;
+    }
+    .navigation ul li {
+        font-size: 13px;
+        }
+        .navigation h4 {
+            padding-left: 40px;
+            font-size: 11px;
+        
+            }
+            .btn {
+    
+                padding: 3px 6px;
+                margin-left: 50px;
+            
+            }
+            .logo {
+                
+                font-size: 25px;
+        
+            }
+            .content p span {
+                font-size: 17px;
+            }
+            .content p {
+                font-size: 15px;
+                
+             }
+  }
+  @media screen and (max-width: 650px) {
+    .content img{
+        height: 77px;
+        width: 77px;
+     }
+     .promotion p {
+        font-size: 25px;
+    }
+    .promotion .button {
+        
+        padding: 10px 20px;
+        margin-top: 25px;
+    }
+    .btn {
+    
+        padding: 3px 5px;
+        margin-left: 50px;
+        font-size: 15px;
+    
+    }
+  }
+  @media screen and (max-width: 630px) {
+    .content img{
+        height: 72px;
+        width: 72px;
+     }
+     .navigation ul li {
+        font-size: 13px;
+        }
+        .navigation h4 {
+            padding-left: 40px;
+            font-size: 11px;
+        
+            }
+            .promotion p {
+                font-size: 20px;
+            }
+            .promotion .button {
+        
+                padding: 8px 15px;
+                margin-top: 25px;
+            }
+            nav ul li {
+                padding: 3px 7px;
+                padding-bottom: 40px;
+            }
+            .logo {
+                
+                font-size: 22px;
+        
+            }
+            .content p {
+                font-size: 14px;
+                
+             }
+             .content p span {
+                font-size: 15px;
+            }
+            
+  }
+  @media screen and (max-width: 580px) {
+    input {
+        padding: 6px 1px;
+        margin-bottom: 40px;
+        }   
+        nav ul li {
+            padding: 2px 5px;
+            padding-bottom: 40px;
+            font-size: 14px;
+        }
+        .logo {
+                
+            font-size: 18px;
+    
+        }
+        .btn {
+    
+            padding: 3px 6px;
+            margin-left: 50px;
+            font-size: 12px; 
+        }
+        .navigation ul li {
+            font-size: 12px;
+            }
+        
+}
+@media screen and (max-width: 535px) {
+    .promotion .button {
+        
+       font-size: 15px;
+    }
+    .content img{
+        height: 67px;
+        width: 67px;
+     }
+     .content p {
+        font-size: 13.5px;
+        
+     }
+     .content p span {
+        font-size: 16px;
+    }
+    .promotion p {
+        font-size: 17px;
+    }
+    .promotion .button {
+        
+        font-size: 11px;
+    }
+    input {
+        font-size: 12px;
+        
+        } 
+     
+}
+@media screen and (max-width: 502px) {
+    .logo {
+                
+        font-size: 15px;
+
+    }
+    .content img{
+        height: 60px;
+        width: 60px;
+     }
+     nav ul li {
+        font-size: 12px;
+    }
+    input {
+        padding: 6px 1px;
+      
+        font-size: 11px;
+        }  
+        .btn {
+    
+            font-size: 10px; 
+        }
+        .navigation ul li {
+            font-size: 10px;
+            }
+            .navigation h4 {
+                padding-left: 40px;
+                font-size: 9px;
+            }    
+
+     .content p {
+        font-size: 12.8px;
+        
+     }
+     .content p span {
+        font-size: 14.5px;
+    }
+    .promotion p {
+        font-size: 15.3px;
+    }
+    .promotion .button {
+        
+        font-size: 10px;
+    }
+
+}
